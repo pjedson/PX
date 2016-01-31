@@ -10,6 +10,8 @@ typedef struct Btree {
 	struct Btree *left;
 } node;
 
+// newNode() for creating a node.
+
 node * newNode(int d) {
 
 	node *tmp = (node*)malloc(sizeof(node));
